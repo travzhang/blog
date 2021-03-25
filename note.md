@@ -20,3 +20,11 @@ js基础
 栅格布局原理
 
 git rebase 和git ... 的区别
+
+https
+
+http get post 的区别
+
+url到页面渲染整个流程
+
+前端页面绘制流程
