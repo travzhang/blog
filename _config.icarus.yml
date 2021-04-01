@@ -183,7 +183,7 @@ donates:
     -
         type: paypal
         # Paypal business ID or email address
-        business: ''
+        business: 'zhang'
         # Currency code
         currency_code: USD
     # Wechat donate button configurations
@@ -196,7 +196,7 @@ donates:
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    install_url: 'https://www.baidu.com'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -217,24 +217,24 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: zhangtao25
         # Author title
-        author_title: Your title
+        author_title: study make me happy
         # Author's current location
-        location: Your location
+        location: Shanghai
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/zhangtao25'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/zhangtao25'
             Facebook:
                 icon: fab fa-facebook
                 url: 'https://facebook.com'
@@ -275,7 +275,7 @@ widgets:
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: recent_posts
     # Archives widget configurations
     -
