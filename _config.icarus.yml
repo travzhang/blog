@@ -3,7 +3,7 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: https://www.api.rico.org.cn/public/static/blog/logo.jpeg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -108,7 +108,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/zhangtao25'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -121,7 +121,7 @@ footer:
             url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/zhangtao25'
 # Article related configurations
 article:
     # Code highlight settings
@@ -219,11 +219,11 @@ widgets:
         # Author name
         author: zhangtao25
         # Author title
-        author_title: study make me happy
+        author_title: Learning makes me happy
         # Author's current location
         location: Shanghai
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://www.api.rico.org.cn/public/static/blog/zhangtao25.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
