@@ -3,11 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://www.api.rico.org.cn/public/static/blog/logo.jpeg
+logo: https://www.api.rico.org.cn/public/static/blog/logo1.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: https://www.api.rico.org.cn/public/static/blog/logo1.svg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -17,7 +17,7 @@ head:
         # when there is not enough space to display full name
         short_name: 
         # The start URL of the web application
-        start_url: 
+        start_url:
         # The default theme color for the application
         theme_color: 
         # A placeholder background color for the application page to display
@@ -153,44 +153,54 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: valine
+    app_id: 0JjwUo2YNktWOisBX1QRPtdb-gzGzoHsz
+    app_key: UnjOhmEn5VL9TdvQAzMuYFXM
+    placeholder: ""                 # 可选填
+    notify: false                   # 可选填
+    verify: false                   # 可选填
+    avatar:                         # 可选填
+    avatar_force: false             # 可选填
+    meta: ["nick", "mail", "link"]  # 可选填
+    page_size: 10                   # 可选填
+    visitor: false                  # 可选填
+    highlight: true                 # 可选填
+    record_ip: false                # 可选填
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
     # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
+#    -
+#        type: afdian
+#        # URL to the "Afdian.net" personal page
+#        url: ''
     # Alipay donate button configurations
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
+        qrcode: 'https://www.api.rico.org.cn/public/static/blog/alipay.jpg'
     # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
+#    -
+#        type: buymeacoffee
+#        # URL to the "Buy me a coffee" page
+#        url: ''
     # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
+#    -
+#        type: patreon
+#        # URL to the Patreon page
+#        url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: 'zhang'
-        # Currency code
-        currency_code: USD
+#    -
+#        type: paypal
+#        # Paypal business ID or email address
+#        business: 'zhang'
+#        # Currency code
+#        currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+        qrcode: 'https://www.api.rico.org.cn/public/static/blog/wxpay.jpg'
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:

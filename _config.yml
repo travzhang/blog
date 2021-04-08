@@ -5,7 +5,7 @@ keywords: null
 author: Allen Zhang
 language: zh-CN
 timezone: ''
-url: http://example.com
+url: https://zhangtao25.github.io/blog
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
