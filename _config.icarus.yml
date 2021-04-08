@@ -100,9 +100,10 @@ navbar:
     # Navigation menu items
     menu:
         主页: /
-        档案馆: /archives
+        归档: /archives
         分类: /categories
         标签: /tags
+        美文美句: /bws
         关于: /about
     # Links to be shown on the right of the navigation bar
     links:
