@@ -1,30 +1,40 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function ProfilePage() {
-  return (
-      <div className="max-w-3xl mx-auto px-4 py-12 md:py-20">
-        <h1 className="text-6xl font-bold mb-8">Hello.</h1>
-
-        <h2 className="text-4xl font-bold mb-10">My name is Allen Zhang.</h2>
-
-        <p className="text-xl mb-8">
-          我是{" "}
-          <Link href="#" className="bg-green-100 px-1 rounded">
-            Canyonjs
-          </Link>
-            的作者，Canyonjs是一个javascript 端到端测试覆盖率收集工具。
-            我目前在上海的Trip.com Groip工作。
-        </p>
-
-        <p className="text-xl mb-8">
-            您可以在X和 Bluesky 上关注我， 我主要发布有关 Vue 和前端技术的帖子。如果您会说中文，
-            我的中文名字是张涛，我有一个仅限中文的 X alt ，用于非技术方面的思考。
-        </p>
-
-        <p className="text-xl">
-            除了工作、开源项目和帮助妻子照顾我们的孩子之外，我还喜欢去骑行、旅游，最近正在考日本驾照。
-        </p>
-      </div>
-  )
+    return (
+        <div className="max-w-3xl mx-auto px-4 py-12 md:py-20">
+            <h1 className="text-5xl font-bold mb-8">Hello!</h1>
+            <h2 className="text-3xl font-bold mb-10">My name is Allen Zhang.</h2>
+            <p className="text-xl mb-8">
+                I&#39;m the developer of{" "}
+                <Link target={'_blank'} href="https://canyonjs.org" className="bg-[#0071c2] text-white px-1 rounded">
+                    Canyonjs
+                </Link>
+                . Canyonjs is a tool for collecting end-to-end test coverage of JavaScript, which can help developers evaluate code test situations more efficiently. Currently, I work at
+                {" "}
+                <Link target={'_blank'} href={'https://trip.com'} className="bg-[#0071c2] text-white px-1 rounded">
+                    Trip.com
+                </Link>
+                {" "}
+                Group in Shanghai.
+            </p>
+            <p className="text-xl mb-8">
+                You can follow me on
+                {" "}
+                <Link target={'_blank'} href="https://x.com/wr_zhang25" className="bg-[#0071c2] text-white px-1 rounded">
+                    X
+                </Link>
+                {" "}. I&#39;ll share knowledge about JavaScript coverage and frontend technology tips there. My Chinese name is 张涛 (zhāng tāo). I also have an
+                {" "}
+                <Link target={'_blank'} href="https://x.com/wr_zhang25" className="bg-[#0071c2] text-white px-1 rounded">
+                    X
+                </Link>
+                {" "}
+                account that is only updated in Chinese to record snippets of my life.
+            </p>
+            <p className="text-xl">
+                In my free time, I&#39;m enthusiastic about open-source projects and also help my wife take care of our children. Additionally, I like cycling and traveling. Recently, I&#39;m working hard to get my Japanese driver&#39;s license.
+            </p>
+        </div>
+    );
 }
-
