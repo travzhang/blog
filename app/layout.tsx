@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Allen Zhang",
+  title: "Travis Zhang",
 };
 
 export default function RootLayout({
