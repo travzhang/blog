@@ -4,7 +4,7 @@ export default function ProfilePage() {
     return (
         <div className="max-w-3xl mx-auto px-4 py-12 md:py-20">
             <h1 className="text-5xl font-bold mb-8">Hello!</h1>
-            <h2 className="text-3xl font-bold mb-10">My name is Allen Zhang.</h2>
+            <h2 className="text-3xl font-bold mb-10">My name is Travis Zhang.</h2>
             <p className="text-xl mb-8">
                 I&#39;m the developer of{" "}
                 <Link target={'_blank'} href="https://canyonjs.org" className="bg-[#0071c2] text-white px-1 rounded">
