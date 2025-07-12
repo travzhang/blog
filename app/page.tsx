@@ -33,7 +33,7 @@ export default function ProfilePage() {
                 account that is only updated in Chinese to record snippets of my life.
             </p>
             <p className="text-xl">
-                In my free time, I&#39;m enthusiastic about open-source projects and also help my wife take care of our children. Additionally, I like cycling and traveling. Recently, I&#39;m working hard to get my Japanese driver&#39;s license.
+                In my free time, I&#39;m enthusiastic about open-source projects and also help my wife take care of our children. Additionally, I like cycling and traveling. Recently, I got a Japanese driver's license.
             </p>
         </div>
     );
